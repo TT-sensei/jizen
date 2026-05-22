@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>修学旅行 事前学習ガイド（日光）</title>
+
+<style>
+body {
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #333;
+  padding-bottom: 40px;
+}
+header {
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+header h1 {
+  margin: 0;
+  font-size: 28px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+header p {
+  margin: 8px 0 0 0;
+  font-size: 16px;
+  opacity: 0.95;
+}
+.container {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}
+h2 {
+  border-left: 6px solid #2c5aa0;
+  padding-left: 12px;
+  margin-top: 0;
+  color: #1e3c72;
+}
+.timeline {
+  display: flex;
+  gap: 8px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+.timeline-step {
+  flex: 1;
+  min-width: 140px;
+  background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+  border-radius: 10px;
+  padding: 12px;
+  text-align: center;
+  font-weight: bold;
+  color: #1e3c72;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.timeline-step.active {
+  background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+  transform: scale(1.05);
+}
+.spot {
+  border: 2px solid #e0e7ff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-top: 16px;
+  background: linear-gradient(135deg, #fdfbfb 0%, #f7f9fc 100%);
+  transition: all 0.3s;
+}
+.spot:hover {
+  border-color: #2c5aa0;
+  box-shadow: 0 4px 12px rgba(44,90,160,0.15);
+}
+.spot h3 {
+  margin-top: 0;
+  color: #1e3c72;
+  font-size: 20px;
+}
+.spot ul {
+  margin: 12px 0;
+  padding-left: 20px;
+}
+.spot li {
+  margin: 6px 0;
+  color: #555;
+  font-weight: 500;
+}
+a.button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+  transition: all 0.3s;
+}
+a.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 12px rgba(0,0,0,0.3);
+}
+.thinking-box {
+  background: linear-gradient(135deg, #fff9e6 0%, #fff3cd 100%);
+  padding: 16px;
+  border-radius: 12px;
+  margin-top: 16px;
+  border-left: 5px solid #ffc107;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.thinking-box h4 {
+  margin: 0 0 10px 0;
+  color: #d97706;
+  font-size: 16px;
+}
+.thinking-box ul {
+  margin: 8px 0;
+  padding-left: 20px;
+}
+.thinking-box li {
+  margin: 6px 0;
+  font-weight: 500;
+  color: #92400e;
+}
+.highlight {
+  background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%);
+  padding: 16px;
+  border-radius: 12px;
+  margin-top: 16px;
+  font-weight: bold;
+  color: #2d3436;
+  text-align: center;
+  font-size: 17px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+.goal-box {
+  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+  padding: 18px;
+  border-radius: 12px;
+  margin-top: 12px;
+  border: 2px solid #81e6d9;
+}
+.goal-box li {
+  margin: 8px 0;
+  font-weight: 600;
+  color: #1e3c72;
+  font-size: 16px;
+}
+.tips {
+  background: #e8f4f8;
+  padding: 12px;
+  border-radius: 10px;
+  margin-top: 12px;
+  border-left: 4px solid #2c5aa0;
+}
+.tips strong {
+  color: #1e3c72;
+}
+.comparison-hint {
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  padding: 14px;
+  border-radius: 10px;
+  margin-top: 12px;
+  font-weight: 600;
+  color: #7c2d12;
+}
+.emoji-large {
+  font-size: 24px;
+  margin-right: 8px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>🎒 修学旅行 事前学習ガイド</h1>
+  <p>〜自分で調べて、班でおすすめを決めよう〜</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>🎯 最終ゴール</h2>
+<div class="goal-box">
+<p style="margin-top:0;"><strong>班で「おすすめ注目ポイント」を1つ決めよう！</strong></p>
+<ul>
+<li>✅ どこを見るか</li>
+<li>✅ なぜそこに注目するのか（理由をはっきり）</li>
+<li>✅ 当日どう見たいか（具体的に）</li>
+</ul>
+</div>
+<div class="highlight">
+💡 迷ってもOK！でも最後は必ず1つに決めよう
+</div>
+</div>
+
+<div class="card">
+<h2>📅 5時間の流れ</h2>
+<div class="timeline">
+<div class="timeline-step">①<br>分担<br>見通し</div>
+<div class="timeline-step">②<br>個人で<br>調べる</div>
+<div class="timeline-step">③<br>もっと<br>調べる</div>
+<div class="timeline-step">④<br>班で<br>比べる</div>
+<div class="timeline-step">⑤<br>おすすめ<br>決定</div>
+</div>
+
+<div class="thinking-box">
+<h4>🤔 大事な問いかけ</h4>
+<ul>
+<li>「どこが同じ？どこが違う？」</li>
+<li>「なぜそれを選んだの？」</li>
+<li>「他と比べてどう？」</li>
+<li>「当日、どこを見ればそれがわかる？」</li>
+</ul>
+</div>
+</div>
+
+<div class="card">
+<h2>🔍 調べるときのポイント</h2>
+<ul>
+<li><strong>どんな場所か</strong> → 基本情報を集める</li>
+<li><strong>見どころは何か</strong> → 何がすごいのか？</li>
+<li><strong>なぜ注目するのか</strong> → 理由を考える</li>
+<li><strong>当日どこを見たいか</strong> → 具体的に決める</li>
+</ul>
+
+<div class="tips">
+<strong>調べて終わりにしない！</strong><br>
+集めた情報をもとに「なぜ？」を考えよう
+</div>
+</div>
+
+<div class="card">
+<h2>🗺️ 日光の見どころ（クリックして調べよう）</h2>
+
+<div class="spot">
+<h3><span class="emoji-large">🏯</span>日光東照宮</h3>
+<ul>
+<li>なぜこんなに豪華なの？</li>
+<li>三猿・眠り猫にはどんな意味がある？</li>
+<li>誰がつくった？なぜここに？</li>
+</ul>
+<a class="button" href="https://www.google.com/search?q=日光東照宮+とは" target="_blank">🔍 調べる</a>
+<a class="button" href="https://www.google.com/search?q=日光東照宮+三猿+眠り猫+意味" target="_blank">🔍 詳しく調べる</a>
+</div>
+
+<div class="spot">
+<h3><span class="emoji-large">🌊</span>華厳の滝</h3>
+<ul>
+<li>どうやってできた？</li>
+<li>なぜ日本三名瀑なの？</li>
+<li>他の滝と何が違う？</li>
+</ul>
+<a class="button" href="https://www.google.com/search?q=華厳の滝+でき方" target="_blank">🔍 調べる</a>
+<a class="button" href="https://www.google.com/search?q=華厳の滝+日本三名瀑" target="_blank">🔍 詳しく調べる</a>
+</div>
+
+<div class="spot">
+<h3><span class="emoji-large">🌿</span>竜頭の滝</h3>
+<ul>
+<li>なぜ「竜頭」という名前？</li>
+<li>華厳の滝との違いは？</li>
+<li>どこから見るのがおすすめ？</li>
+</ul>
+<a class="button" href="https://www.google.com/search?q=竜頭の滝+特徴" target="_blank">🔍 調べる</a>
+<a class="button" href="https://www.google.com/search?q=竜頭の滝+名前の由来" target="_blank">🔍 詳しく調べる</a>
+</div>
+
+<div class="spot">
+<h3><span class="emoji-large">🚤</span>中禅寺湖</h3>
+<ul>
+<li>どうやってできた湖？</li>
+<li>人との関わりは？（別荘、観光など）</li>
+<li>なぜこんな高いところに湖がある？</li>
+</ul>
+<a class="button" href="https://www.google.com/search?q=中禅寺湖+でき方" target="_blank">🔍 調べる</a>
+<a class="button" href="https://www.google.com/search?q=中禅寺湖+男体山+噴火" target="_blank">🔍 詳しく調べる</a>
+</div>
+
+<div class="spot">
+<h3><span class="emoji-large">🚗</span>いろは坂</h3>
+<ul>
+<li>なぜくねくねしている？</li>
+<li>どんな工夫がある？</li>
+<li>上りと下りで道が違うのはなぜ？</li>
+</ul>
+<a class="button" href="https://www.google.com/search?q=いろは坂+なぜ曲がっている" target="_blank">🔍 調べる</a>
+<a class="button" href="https://www.google.com/search?q=いろは坂+48カーブ+理由" target="_blank">🔍 詳しく調べる</a>
+</div>
+
+<div class="spot">
+<h3><span class="emoji-large">🎭</span>江戸ワンダーランド日光江戸村</h3>
+<ul>
+<li>江戸時代のくらしはどんな感じ？</li>
+<li>今との違いは何？</li>
+<li>どんな体験ができる？</li>
+</ul>
+<a class="button" href="https://www.google.com/search?q=日光江戸村+どんなところ" target="_blank">🔍 調べる</a>
+<a class="button" href="https://www.google.com/search?q=江戸時代+暮らし+特徴" target="_blank">🔍 詳しく調べる</a>
+</div>
+
+<div class="comparison-hint">
+🔥 ここがポイント！<br>
+複数の場所を調べたら、必ず「共通点」と「違い」を考えよう
+</div>
+
+</div>
+
+<div class="card">
+<h2>📝 班でのまとめ（4〜5時間目）</h2>
+
+<div class="thinking-box">
+<h4>🗣️ 話し合いの流れ</h4>
+<ul>
+<li><strong>①</strong> それぞれが調べたことを発表</li>
+<li><strong>②</strong> 共通点・違いを見つける</li>
+<li><strong>③</strong> おすすめを選ぶ（理由をはっきり）</li>
+<li><strong>④</strong> 当日どう見るか決める</li>
+</ul>
+</div>
+
+<div class="tips">
+<strong>話し合いのコツ</strong><br>
+・「なぜ？」を繰り返そう<br>
+・他の人の意見もよく聞こう<br>
+・迷ったら「どこが一番〇〇か？」で考えよう
+</div>
+
+<div class="highlight">
+🎯 必ず1つに決めよう！理由も忘れずに！
+</div>
+
+</div>
+
+<div class="card">
+<h2>✨ 評価のポイント（自分でチェック）</h2>
+
+<div class="goal-box">
+<p style="margin-top:0;"><strong>こんな学習ができたらすごい！</strong></p>
+<ul>
+<li>📚 <strong>しっかり調べられたか</strong><br>必要な情報を集めて、大事なことをまとめた</li>
+<li>🤔 <strong>よく考えられたか</strong><br>複数の場所を比べて、はっきりした理由でおすすめを選んだ</li>
+<li>🙋 <strong>進んで学べたか</strong><br>自分から課題を見つけて、友だちの意見も大事にした</li>
+</ul>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
